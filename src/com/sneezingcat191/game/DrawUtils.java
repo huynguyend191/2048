@@ -8,7 +8,7 @@ import java.awt.geom.Rectangle2D;
 public class DrawUtils {
 	
 	private DrawUtils() { }
-	
+	//calculate text width and height
 	public static int getMessageWidth(String message, Font font, Graphics2D g) {
 		g.setFont(font);
 		Rectangle2D bounds = g.getFontMetrics().getStringBounds(message, g);
